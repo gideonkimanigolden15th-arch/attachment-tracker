@@ -1,0 +1,10 @@
+# Needed for the prototype in this folder (on top of the app's own requirements.txt)
+opencv-python-headless>=4.8   # finds the logbook table to cut it into day cells
+scikit-learn>=1.3
+python-docx>=1.1
+
+# Optional: Hugging Face models (only needed to try the embed_* / nli_* backends or TrOCR)
+# sentence-transformers>=3.0
+# transformers>=4.40
+# torch            # CPU build is enough for a few hundred entries a week
+# setfit           # later, once you have confirmed entries to fine-tune on

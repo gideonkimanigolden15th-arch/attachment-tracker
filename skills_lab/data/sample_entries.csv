@@ -1,0 +1,191 @@
+id,split,text,labels,kind
+s001,seed,Configured the TP-Link router and set up the Wi-Fi network for the new office.,networking,plain
+s002,seed,Crimped RJ45 connectors and ran cat6 cables to the new workstations.,networking;hardware,plain
+s003,seed,Assigned static IP addresses to the printers and documented the subnet.,networking;docs_comms,plain
+s004,seed,Set up a VLAN on the managed switch to separate guest Wi-Fi from staff.,networking;security,plain
+s005,seed,Learnt how DHCP and DNS work and checked the leases on the router.,networking,plain
+s006,seed,Installed a Wi-Fi access point in the boardroom and tested signal strength.,networking,plain
+s007,seed,Configured a site-to-site VPN between the head office and the branch.,networking;security,plain
+s008,seed,Patched cables in the server room rack and labelled the switch ports.,networking;hardware,plain
+s009,seed,Diagnosed why a user's laptop could not connect to the internet; the network adapter driver was disabled.,troubleshooting;networking,plain
+s010,seed,Attended to helpdesk tickets and resolved password reset requests.,troubleshooting,plain
+s011,seed,Fixed a printer that kept jamming by replacing the pick-up roller.,troubleshooting;hardware,plain
+s012,seed,Used remote desktop to help a staff member whose Outlook would not open.,troubleshooting,plain
+s013,seed,Traced a slow computer problem to a full hard disk and cleaned up temporary files.,troubleshooting,plain
+s014,seed,Logged each fault in the ticketing system and escalated the unresolved ones to my supervisor.,troubleshooting;professional,plain
+s015,seed,"Followed the troubleshooting steps for a computer that would not boot: checked power, RAM and the hard drive.",troubleshooting;hardware,plain
+s016,seed,Found that the shared folder was not opening because of wrong permissions and corrected it.,troubleshooting;os_admin,plain
+s017,seed,"Assembled a desktop computer from parts and installed the motherboard, RAM and power supply.",hardware,plain
+s018,seed,Replaced a faulty laptop screen and reassembled the casing.,hardware,plain
+s019,seed,Installed a CCTV system with four cameras and a DVR.,hardware,plain
+s020,seed,Upgraded RAM and replaced an old hard drive with an SSD.,hardware,plain
+s021,seed,"Set up a point of sale terminal, receipt printer and barcode scanner for the shop.",hardware,plain
+s022,seed,Cleaned dust from desktop computers and replaced thermal paste on the CPU.,hardware,plain
+s023,seed,Tested a UPS and replaced its battery.,hardware,plain
+s024,seed,Installed and aligned a projector in the conference room.,hardware,plain
+s025,seed,Installed Windows 11 on ten new computers and activated them.,os_admin,plain
+s026,seed,Created user accounts in Active Directory and assigned them to groups.,os_admin,plain
+s027,seed,"Installed Ubuntu Server and learnt basic Linux commands like ls, chmod and grep.",os_admin,plain
+s028,seed,Applied Windows updates and scheduled automatic restarts after hours.,os_admin;security,plain
+s029,seed,Set up group policy to restrict the control panel on staff computers.,os_admin;security,plain
+s030,seed,Cloned a disk image with the reference setup to deploy to the new lab machines.,os_admin,plain
+s031,seed,Configured file sharing and mapped network drives for the accounts department.,os_admin;networking,plain
+s032,seed,Created a backup schedule for the file server and tested restoring a folder.,os_admin,plain
+s033,seed,Installed and updated antivirus on all office computers and ran a full scan.,security,plain
+s034,seed,Configured the firewall rules to block unwanted traffic.,security;networking,plain
+s035,seed,Attended a briefing on phishing emails and how to report them.,security,plain
+s036,seed,Reviewed user access rights and removed accounts of staff who had left.,security;os_admin,plain
+s037,seed,Enabled two-factor authentication for the company email accounts.,security;cloud,plain
+s038,seed,Encrypted laptops with BitLocker to protect company data.,security,plain
+s039,seed,Helped investigate a suspicious email and checked the header and link.,security,plain
+s040,seed,Learnt about the data protection policy and why customer records must be kept private.,security;professional,plain
+s041,seed,Wrote SQL queries to pull the monthly sales report from the MySQL database.,databases,plain
+s042,seed,Designed a table structure for the stock inventory and added primary keys.,databases,plain
+s043,seed,Cleaned and entered customer records into the database and removed duplicates.,databases,plain
+s044,seed,Created pivot tables and charts in Excel for the management report.,databases;docs_comms,plain
+s045,seed,Exported data from the old system and imported it into the new database.,databases,plain
+s046,seed,Took a backup of the database and learnt how to restore it.,databases;os_admin,plain
+s047,seed,Built a simple Access form for recording client visits.,databases;software_web,plain
+s048,seed,Checked the data for errors and validated the figures before the audit.,databases,plain
+s049,seed,"Built the company website pages using HTML, CSS and JavaScript.",software_web,plain
+s050,seed,Wrote a Python script to automate renaming and sorting the scanned documents.,software_web,plain
+s051,seed,Fixed a bug in the PHP login form and tested it.,software_web;troubleshooting,plain
+s052,seed,Used Git to commit my changes and learnt to resolve merge conflicts.,software_web,plain
+s053,seed,Developed a small Android app screen for the delivery tracking project.,software_web,plain
+s054,seed,Connected the website to a payment API and tested the checkout.,software_web,plain
+s055,seed,Updated the WordPress site and installed a contact form plugin.,software_web,plain
+s056,seed,Designed the user interface in Figma and then coded it.,software_web,plain
+s057,seed,Created a virtual machine in Hyper-V and installed Windows Server on it.,cloud;os_admin,plain
+s058,seed,Set up Microsoft 365 mailboxes and licences for new staff.,cloud;os_admin,plain
+s059,seed,Deployed a small web app to an Azure App Service.,cloud;software_web,plain
+s060,seed,Moved the shared files to Google Drive and set the sharing permissions.,cloud,plain
+s061,seed,Learnt about AWS EC2 and launched a test server.,cloud,plain
+s062,seed,Configured cloud backup of the accounting data.,cloud;os_admin,plain
+s063,seed,Used VirtualBox to build a test lab with two virtual machines.,cloud,plain
+s064,seed,Managed the company domain and hosting account and renewed the SSL certificate.,cloud;security,plain
+s065,seed,Wrote a user guide showing staff how to connect to the new Wi-Fi.,docs_comms,plain
+s066,seed,Updated the IT asset register with serial numbers of all the computers.,docs_comms,plain
+s067,seed,Prepared a weekly report for my supervisor summarising the work done.,docs_comms,plain
+s068,seed,Presented the new email procedure to the staff at the morning meeting.,docs_comms,plain
+s069,seed,Drew the network diagram of the office using Visio.,docs_comms;networking,plain
+s070,seed,Trained two secretaries on how to use the new document scanner.,docs_comms,plain
+s071,seed,Took minutes at the IT department meeting and shared them by email.,docs_comms,plain
+s072,seed,Documented the steps for setting up a new user so others can follow them.,docs_comms,plain
+s073,seed,Worked with the team to meet the deadline for the office move.,professional,plain
+s074,seed,Learnt to prioritise tasks and manage my time between requests.,professional,plain
+s075,seed,Dealt politely with a frustrated customer and explained the delay.,professional,plain
+s076,seed,Followed safety rules when working near electrical cables and ladders.,professional,plain
+s077,seed,Observed how my supervisor plans and delegates projects in the department.,professional,plain
+s078,seed,Attended the staff induction and learnt the company policies and dress code.,professional,plain
+s079,seed,Asked questions and took feedback from my supervisor on my work.,professional,plain
+s080,seed,Helped plan the budget and timeline for the new computer lab project.,professional,plain
+t001,test,Tested the cable run with a cable tester and fixed two bad terminations.,networking;hardware,plain
+t002,test,Configured port forwarding on the router so the CCTV could be viewed remotely.,networking,plain
+t003,test,Learnt how to subnet a network and worked out the usable addresses for each department.,networking,plain
+t004,test,Replaced the unmanaged switch with a managed 24 port switch and moved all the patch leads.,networking;hardware,plain
+t005,test,Configuerd the rouier and set up the wirelss network for the shp.,networking,noisy
+t006,test,Nilisaidia kuunganisha wifi na kuset up router kwa ofisi mpya.,networking,swahili
+t007,test,"The branch could not reach the main office servers, so I checked the tunnel and the peer settings.",networking;troubleshooting,hard
+t008,test,A user complained that the system was very slow so I checked what was running and closed the programs hogging memory.,troubleshooting,plain
+t009,test,Computer kept restarting by itself; I tested the power supply and it was failing.,troubleshooting;hardware,plain
+t010,test,Resolved the email not sending issue by correcting the SMTP settings.,troubleshooting,plain
+t011,test,Fixd the prnter that was not pritnting and clered the print queue.,troubleshooting;hardware,noisy
+t012,test,Answered phone calls from staff with IT problems and noted each problem down.,troubleshooting,plain
+t013,test,Helped the accountant whose screen went blank every morning; the cable was loose behind the monitor.,troubleshooting;hardware,hard
+t014,test,"Nilirekebisha computer ambayo haiwaki, power supply ilikuwa imeharibika.",troubleshooting;hardware,swahili
+t015,test,Installed a new thermal printer at the front desk and loaded the paper roll.,hardware,plain
+t016,test,Opened up old laptops to harvest parts and tested the RAM sticks.,hardware,plain
+t017,test,Mounted the TV and projector brackets in the training room.,hardware,plain
+t018,test,Set up a biometric fingerprint attendance device and connected it to the computer.,hardware;networking,plain
+t019,test,Replacd the keybaord and mouze on three desktops.,hardware,noisy
+t020,test,Tested the batteries of the UPS units and replaced the weak ones.,hardware,plain
+t021,test,Unboxed and set up twenty new workstations on the desks.,hardware,hard
+t022,test,Reset a locked user account and added the user to the sales group in Active Directory.,os_admin,plain
+t023,test,Installed the required software on the new laptops using the standard image.,os_admin,plain
+t024,test,Learnt to use PowerShell to list the installed programs on remote computers.,os_admin,plain
+t025,test,Dual-booted Linux Mint alongside Windows on the lab computer.,os_admin,plain
+t026,test,Instaled Windos updats on the servr and rebooted after hours.,os_admin,noisy
+t027,test,Set disk quotas and cleaned the file server shares.,os_admin,plain
+t028,test,Prepared the company machines for the new staff and made sure each one had the right accounts and software.,os_admin,hard
+t029,test,Changed all default passwords on the network devices and recorded them in the password manager.,security,plain
+t030,test,Scanned the network for open ports and reported the risky ones.,security;networking,plain
+t031,test,Learnt about ransomware and how backups protect against it.,security,plain
+t032,test,Blocked a USB drive policy on the finance computers.,security;os_admin,plain
+t033,test,Instaled antivirs and ran a scan; removed two trojan files.,security,noisy
+t034,test,Reviewed the CCTV footage access list so only authorised people could view it.,security,plain
+t035,test,Checked that employees' computers lock when they walk away.,security,hard
+t036,test,Wrote a stored procedure to calculate customers' outstanding balances.,databases,plain
+t037,test,Entered survey responses into Excel and used formulas to summarise them.,databases,plain
+t038,test,Normalised the student records tables to remove repeated data.,databases,plain
+t039,test,Linked the sales spreadsheet to the database so it refreshes automatically.,databases,plain
+t040,test,Wrote SQl quries and joind the custmer and orders tables.,databases,noisy
+t041,test,Restored the accounting database after the test server crashed.,databases;troubleshooting,plain
+t042,test,Compared the stock counts on paper with those in the system and corrected the mismatches.,databases,hard
+t043,test,Created a responsive landing page and tested it on phone screens.,software_web,plain
+t044,test,Wrote functions in JavaScript to validate the registration form inputs.,software_web,plain
+t045,test,Reviewed a teammate's code and learnt about clean code conventions.,software_web;professional,plain
+t046,test,Built a REST API endpoint in Flask that returns the inventory list.,software_web,plain
+t047,test,Codng the loggin pag in Pyhton and tesing it.,software_web,noisy
+t048,test,Debugged why the website images did not display on mobile.,software_web;troubleshooting,plain
+t049,test,Made the staff leave request page work so that managers receive an email when someone applies.,software_web,hard
+t050,test,Set up a shared mailbox and distribution list in Office 365.,cloud,plain
+t051,test,Created a Linux virtual server on DigitalOcean and installed Nginx.,cloud;os_admin,plain
+t052,test,Moved the company email from the old hosting to Google Workspace.,cloud,plain
+t053,test,Took snapshots of the virtual machines before the upgrade.,cloud,plain
+t054,test,Creatd a virtal machin on Azur for the test enviroment.,cloud,noisy
+t055,test,Registered a domain name and pointed it to the web hosting.,cloud;networking,plain
+t056,test,Helped the team move our files to the online storage so people can work from home.,cloud,hard
+t057,test,Compiled the weekly activity summary and emailed it to the department head.,docs_comms,plain
+t058,test,Prepared PowerPoint slides for the end-of-month staff training.,docs_comms,plain
+t059,test,Wrote a procedure for requesting new software and put it on the intranet.,docs_comms,plain
+t060,test,Wrote the standard operating procedure for backing up the server.,docs_comms;os_admin,plain
+t061,test,Wrot a manuel for staf on how to use the new scaner.,docs_comms,noisy
+t062,test,"Explained to the clients, in simple terms, how the new system works.",docs_comms,plain
+t063,test,Kept a record of every device handed out to staff and the date it was returned.,docs_comms,hard
+t064,test,Learnt how to communicate professionally with clients over the phone.,professional,plain
+t065,test,Took responsibility for my tasks and finished them before the deadline.,professional,plain
+t066,test,Worked well in a team when installing the equipment for the new branch.,professional,plain
+t067,test,Attended the safety talk about working at heights.,professional,plain
+t068,test,Askd my supervisr for feedbak on my work and imprvd.,professional,noisy
+t069,test,Shadowed the IT manager in meetings with vendors to see how procurement works.,professional,plain
+t070,test,Stayed late to finish urgent work for the director.,professional,hard
+b001,blind,"Today I learnt how data moves from one computer to another through the switch and the router, and drew it in my book.",networking;docs_comms,blind
+b002,blind,We pulled cable through the ceiling to the new accounts office and terminated both ends at the wall boxes.,networking;hardware,blind
+b003,blind,The Wi-Fi in the lobby kept dropping so I moved the access point and changed the channel.,networking;troubleshooting,blind
+b004,blind,Set the office printers to use fixed addresses so staff stop losing them after a restart.,networking,blind
+b005,blind,A lady from finance could not open her spreadsheet; it turned out the file was on a drive that was disconnected.,troubleshooting,blind
+b006,blind,Spent the morning figuring out why the laptop was extremely hot and loud; cleaned the fan.,troubleshooting;hardware,blind
+b007,blind,Phone rang all day with people asking for help with logging in to the system.,troubleshooting,blind
+b008,blind,Worked on a ticket about email bouncing back and discovered the mailbox was full.,troubleshooting;cloud,blind
+b009,blind,Helped unpack and connect four new printers and two scanners for the records office.,hardware,blind
+b010,blind,Changed the broken hinge and the battery on the manager's laptop.,hardware,blind
+b011,blind,Fitted the cameras outside the gate and ran the wires to the recorder.,hardware,blind
+b012,blind,Opened a dead desktop and swapped the memory sticks to test which one was bad.,hardware;troubleshooting,blind
+b013,blind,Added the three new interns to the domain and gave them access to the shared drive.,os_admin,blind
+b014,blind,Learnt to schedule tasks in Windows so the cleanup script runs every night.,os_admin,blind
+b015,blind,Practised installing a Linux distribution in a virtual box and updating packages with apt.,os_admin;cloud,blind
+b016,blind,Rebuilt the lab computers from the master image so they all had the same programs.,os_admin,blind
+b017,blind,Talked to the staff about not clicking links from unknown senders.,security,blind
+b018,blind,Checked who still had access to the old finance folder and removed those who did not need it.,security;os_admin,blind
+b019,blind,Turned on automatic lock and set stronger password rules on the shared computers.,security;os_admin,blind
+b020,blind,Installed a certificate so the portal shows the padlock and traffic is encrypted.,security;cloud,blind
+b021,blind,Typed in 200 client visit records from paper files into the new system.,databases,blind
+b022,blind,Wrote a query that lists customers who have not paid in the last 30 days.,databases,blind
+b023,blind,Fixed the Excel sheet where the totals were wrong because some cells were stored as text.,databases;troubleshooting,blind
+b024,blind,Learnt how tables are linked using foreign keys while helping design the school fees database.,databases,blind
+b025,blind,Added a button to the portal that downloads the monthly list as a PDF.,software_web,blind
+b026,blind,Spent today finding why the form would not submit; I had misspelt a variable name.,software_web;troubleshooting,blind
+b027,blind,Followed a tutorial to build a small chat app and pushed the code to our repository.,software_web,blind
+b028,blind,Changed the colours and fonts on the website to match the new company logo.,software_web,blind
+b029,blind,Created accounts for the new staff in the online office suite and assigned them licences.,cloud;os_admin,blind
+b030,blind,Set up an online backup so the files are copied to the internet every night.,cloud;os_admin,blind
+b031,blind,Practised creating servers on a cloud provider's free tier and deleting them after use.,cloud,blind
+b032,blind,Built two test machines inside the computer using virtualization software to practise installing a server.,cloud;os_admin,blind
+b033,blind,Wrote a one-page guide with screenshots for staff to follow when the system is down.,docs_comms,blind
+b034,blind,"Listed every computer in the office with its owner, location and serial number in a table.",docs_comms,blind
+b035,blind,Gave a ten minute talk to the department about what I have learnt this month.,docs_comms,blind
+b036,blind,Sat in the weekly meeting and wrote down the action points for the IT team.,docs_comms;professional,blind
+b037,blind,My supervisor corrected how I label cables and I redid them properly the same day.,professional,blind
+b038,blind,Learnt how the company approves purchases before equipment is bought.,professional,blind
+b039,blind,Helped a worried client calmly until the problem was solved.,professional,blind
+b040,blind,Made a to-do list each morning so urgent jobs were done first.,professional,blind
