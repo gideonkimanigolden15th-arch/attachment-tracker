@@ -30,7 +30,7 @@ MAX_IMAGE_SIDE = 2400
 # Smallest accepted photos. Face photos only need to be a sensible portrait; logbook photos need
 # enough pixels for the table lines to be seen. Real phone photos are 3000+ px, so these only
 # catch thumbnails, screenshots of thumbnails and tiny web images.
-MIN_FACE_SHORT_SIDE = 100
+MIN_FACE_SHORT_SIDE = 200
 MIN_LOGBOOK_LONG_SIDE = 320
 
 
